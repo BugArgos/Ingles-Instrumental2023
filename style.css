@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=IM+Fell+English:ital@0;1&family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0; 
+    padding: 0;/*distancia do conteudo para o exterior*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font: 100%;   
+    background: linear-gradient( 68.15deg, #3388 16.62%, #e68ee9 85.61% ); 
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img1{
+    width: 72px;
+    border-radius: 10px;
+}
+
+.menu1{
+    display: flex;
+    gap: 32px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.menu:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1)
+}
+.menu{
+    font-family: 'Cormorant Upright', serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid whitesmoke;
+    margin-bottom: 48px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divprincipal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: azure;
+}
+
+.subtitulo{
+    font-family: 'Cormorant Upright', serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botao{
+    background-color: antiquewhite;
+    width: 185px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400px;
+    color: black ;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.botao:hover {
+    background-color: rgba(182, 165, 245, 0.37);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1)
+
+}
+
+.img2{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.conteudo-secundario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.secundario{
+    border-top: 0.4px solid whitesmoke;
+    padding-top: 38px;
+    font-size: 24px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 400px;
+    color: whitesmoke ;
+    margin-bottom: 16px;
+}
+
+.paragrafo{
+    font-size: 18px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 300px;
+    color: whitesmoke ;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 32px;
+    border-top: 0.4px solid whitesmoke;
+    
+}
+.redes{
+    font-size: 18px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 300px;
+    color: whitesmoke ;
+}
+.img3{
+    height: 48px;
+    border-radius: 10px;
+}
+
